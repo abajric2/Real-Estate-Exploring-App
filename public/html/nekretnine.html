@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Nekretnine</title>
+  <link rel="stylesheet" href="/css/nekretnine.css">
+  <link rel="stylesheet" href="/css/navigacija.css">
+</head>
+
+<body>
+  <header>
+    <iframe src="/html/meni.html" class="no-scroll"></iframe>
+  </header>
+  <input placeholder="Min Cijena" id="min_cijena">
+  <input placeholder="Max Cijena" id="max_cijena">
+  <input placeholder="Min Kvadratura" id="min_kvadratura">
+  <input placeholder="Max Kvadratura" id="max_kvadratura">
+  <button class="filter-button" id="filtriranje">Filtriraj</button>
+  <div id="sve-nekretnine">
+    <div id="stan">
+
+    </div>
+    <div id="kuca">
+
+    </div>
+    <div id="pp">
+
+    </div>
+  </div>
+
+  <script src="/scripts/SpisakNekretnina.js"></script>
+  <script src="/scripts/PoziviAjax.js"></script>
+  <script src="/scripts/MarketingAjax.js"></script>
+  <script src="/scripts/nekretnine.js"></script>
+
+</body>
+
+</html>

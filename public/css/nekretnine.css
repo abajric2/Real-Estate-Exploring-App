@@ -1,0 +1,85 @@
+html {
+    background-color: #fdf1d3;
+}
+#stan .grid-item {
+    background-color: white;
+}
+#kuca .grid-item {
+    background-color: powderblue;
+}
+#pp .grid-item {
+    background-color: green;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.grid-item {
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   /* transition: width 0.3s ease; */
+}
+
+.grid-item img {
+    width: 100%;
+    height: 150px;
+}
+
+.property-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.property-info > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.size, .price {
+    margin: 0;  
+}
+.naziv-nekretnine {
+    padding: 10px 20px 0px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+button {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter-button {
+    display: block;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 30px;
+}
+button:hover {
+    background-color: darkblue;
+}
+.no-scroll {
+    overflow: hidden;
+}
+

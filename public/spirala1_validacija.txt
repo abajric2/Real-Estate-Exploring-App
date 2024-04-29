@@ -1,0 +1,11 @@
+Korišteni HTML validator: https://validator.w3.org/
+U svim html stranicama imala sam par info poruka, a greške koje sam ispravljala su bile sljedeće:
+- U svim stranicama, osim meni.html, greška je bila:
+The scrolling attribute on the iframe element is obsolete. Use CSS instead.
+Ovo sam ispravila tako što sam obrisala taj atribut i kroz css dodala svojstvo "overflow: hidden" nad ovim elementom.
+- U stranici nekretnine.css greška je bila:
+Duplicate attribute class
+Riječ je bila o atributu klase koja se svakako ne koristi već je slučajno ostala, tako da sam to samo obrisala.
+
+Za css sam koristila validator https://jigsaw.w3.org/css-validator/
+Nisam imala grešaka u css datotekama.

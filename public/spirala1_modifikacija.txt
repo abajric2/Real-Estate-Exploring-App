@@ -1,0 +1,6 @@
+Modifikacije su izvršene samo u fajlu profil.css. Dodan je upit "@media screen and (min-width: 500px)" koji će 
+vršiti modifikacije navedene unutar njega samo kada je minimalna širina ekrana 500px. Na taj način postiže se
+da se izgled definisan ranije zadrži za ekrane sa širinom manjom od 500px. Unutar @media upita postavljeno je svojstvo
+"display:flex" na div u kojem se nalaze svi elementi (slika, labele, input polja), što njegovu djecu postavlja u jedan red. 
+Potom je nad form tagom (labele, input polja) dodano svojstvo "flex-grow: 1", što će omogućiti da forma popuni ostatak dostupne širine
+(a širina slike je 50%), tako da će forma sada biti desno od slike. Pored toga su još unutar @media upita dodane margine, poravnanja i slično.

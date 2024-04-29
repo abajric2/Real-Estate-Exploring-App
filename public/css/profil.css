@@ -1,0 +1,48 @@
+@media screen and (min-width: 500px) {
+    .vanjski-div {
+      display: flex;
+      align-items: flex-start; 
+    }
+  
+    img {
+      width: 50%;
+      height: auto;
+      margin-right: 20px;
+    }
+  
+    form {
+      flex-grow: 1; 
+    }
+  }
+html {
+    background-color: #fdf1d3;
+}
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;  
+}
+.vanjski-div {
+    width:400px;
+    padding: 20px 20px 20px 20px;
+}
+.left-info {
+    width: 150px;   
+}
+
+.right-info {
+    flex-grow: 1; 
+    padding: 10px 5px; 
+    border: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+img {
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.no-scroll {
+  overflow: hidden;
+}
+

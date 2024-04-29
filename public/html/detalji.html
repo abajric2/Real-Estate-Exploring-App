@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalji</title>
+    <link rel="stylesheet" href="/css/detalji.css">
+    <link rel="stylesheet" href="/css/navigacija.css">
+  </head>
+  <body>
+    <header>
+        <iframe src="/html/meni.html" class="no-scroll"></iframe>
+    </header>
+    <h3 class="prvi-naslov">OSNOVNO</h3>
+    <div id="osnovno">
+        <img src="../img/kuca1.jpg" alt="Vila na moru">
+        <p id="naziv-nekretnine"></p>
+        <p id="kvadratura-nekretnine"></p>
+        <p id="cijena-nekretnine"></p>
+    </div>
+    <h3>DETALJI</h3>
+    <div id="detalji">
+        <div class="info-container">
+            <div class="left-info">
+                <p id="tip-grijanja-nekretnine"></p>
+                <p id="lokacija-nekretnine"></p>
+            </div>
+            <div class="right-info">
+                <p id="godina-izgradnje-nekretnine"></p>
+                <p id="datum-objave-nekretnine"></p>
+            </div>
+        </div>
+        <p id="opis-nekretnine" class="opis"></p>
+    </div>
+    <h3>UPITI</h3>
+    <div id="upiti">
+      <ul id="upiti-za-nekretninu" class="custom-list"></ul>
+    </div>
+    <div id="dodaj-upit"></div>
+    <script src="/scripts/PoziviAjax.js"></script>
+    <script src="/scripts/spojiDetalje.js"></script>
+    <script src="/scripts/spojiUpite.js"></script>
+  </body>
+</html>

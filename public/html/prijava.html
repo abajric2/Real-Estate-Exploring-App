@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Prijava</title>
+  <link rel="stylesheet" href="/css/prijava.css">
+  <link rel="stylesheet" href="/css/navigacija.css">
+</head>
+
+<body>
+  <header>
+    <iframe src="/html/meni.html" class="no-scroll"></iframe>
+  </header>
+
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username"><br>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password"><br>
+
+  <button onclick="prijava()" id="loginButton">Prijava</button>
+
+  <script src="../scripts/PoziviAjax.js"></script>
+
+  <script>
+    function prijava() {
+      let username = document.getElementById("username").value
+      let password = document.getElementById("password").value
+      let poziviAjax = PoziviAjax
+      poziviAjax.postLogin(username, password, function (error, data) {
+      });
+    }
+  </script>
+</body>
+
+</html>

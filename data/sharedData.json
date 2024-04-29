@@ -1,0 +1,34 @@
+{
+  "pretrage": [
+    {
+      "id": 1,
+      "brojPretraga": 363,
+      "brojKlikova": 104
+    },
+    {
+      "id": 2,
+      "brojPretraga": 328,
+      "brojKlikova": 102
+    },
+    {
+      "id": 3,
+      "brojPretraga": 238,
+      "brojKlikova": 55
+    },
+    {
+      "id": 4,
+      "brojPretraga": 193,
+      "brojKlikova": 19
+    },
+    {
+      "id": 5,
+      "brojPretraga": 49,
+      "brojKlikova": 6
+    },
+    {
+      "id": 6,
+      "brojPretraga": 36,
+      "brojKlikova": 24
+    }
+  ]
+}
